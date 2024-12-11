@@ -49,7 +49,7 @@ http://www.sofaconventions.org
 #ifndef _SOFA_PLATFORM_H__
 #define _SOFA_PLATFORM_H__
 
-#include "../src/SOFAVersion.h"
+#include "../inc/SOFAVersion.h"
 
 //==============================================================================
 #include <cstdlib>

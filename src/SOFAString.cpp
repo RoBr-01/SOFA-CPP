@@ -46,7 +46,7 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../src/SOFAString.h"
+#include "../inc/SOFAString.h"
 
 using namespace sofa;
 

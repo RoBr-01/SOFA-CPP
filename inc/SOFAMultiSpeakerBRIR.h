@@ -49,7 +49,7 @@
 #ifndef _SOFA_MULTI_SPEAKER_BRIR_H__
 #define _SOFA_MULTI_SPEAKER_BRIR_H__
 
-#include "../src/SOFAFile.h"
+#include "../inc/SOFAFile.h"
 
 namespace sofa
 {

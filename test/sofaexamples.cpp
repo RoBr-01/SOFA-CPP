@@ -8,10 +8,10 @@
  *
  */
 /************************************************************************************/
-#include "../src/SOFA.h"
-#include "../src/SOFAString.h"
-#include "ncDim.h"
-#include "ncVar.h"
+#include "../inc/SOFA.h"
+#include "../inc/SOFAString.h"
+#include "../lib/netCDF/inc/ncDim.h"
+#include "../lib/netCDF/inc/ncVar.h"
 
 /************************************************************************************/
 /*!

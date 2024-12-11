@@ -49,7 +49,7 @@
 #ifndef _SOFA_SINGLE_ROOM_DRIR_H__
 #define _SOFA_SINGLE_ROOM_DRIR_H__
 
-#include "../src/SOFAFile.h"
+#include "../inc/SOFAFile.h"
 
 namespace sofa
 {

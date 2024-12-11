@@ -46,10 +46,10 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../src/SOFAAttributes.h"
-#include "../src/SOFAAPI.h"
-#include "../src/SOFAString.h"
-#include "../src/SOFASimpleFreeFieldHRIR.h"
+#include "../inc/SOFAAttributes.h"
+#include "../inc/SOFAAPI.h"
+#include "../inc/SOFAString.h"
+#include "../inc/SOFASimpleFreeFieldHRIR.h"
 #include <map>
 
 using namespace sofa;

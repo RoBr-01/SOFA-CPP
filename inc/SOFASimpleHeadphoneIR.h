@@ -49,7 +49,7 @@
 #ifndef _SOFA_SIMPLE_HEADPHONE_IR_H__
 #define _SOFA_SIMPLE_HEADPHONE_IR_H__
 
-#include "../src/SOFAFile.h"
+#include "../inc/SOFAFile.h"
 
 namespace sofa
 {

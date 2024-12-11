@@ -8,8 +8,8 @@
  * 
  */
 /************************************************************************************/
-#include "../src/SOFA.h"
-#include "../src/SOFAString.h"
+#include "../inc/SOFA.h"
+#include "../inc/SOFAString.h"
 
 static void DisplayHelp(std::ostream & output = std::cout)
 {

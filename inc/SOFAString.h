@@ -49,7 +49,7 @@ http://www.sofaconventions.org
 #ifndef _SOFA_STRING_H__
 #define _SOFA_STRING_H__
 
-#include "../src/SOFAPlatform.h"
+#include "../inc/SOFAPlatform.h"
 #include <sstream>
 #include <iostream>
 #include <algorithm>

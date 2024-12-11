@@ -46,7 +46,7 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../src/SOFAReceiver.h"
+#include "../inc/SOFAReceiver.h"
 
 using namespace sofa;
 

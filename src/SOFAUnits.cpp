@@ -46,9 +46,9 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../src/SOFAUnits.h"
-#include "../src/SOFANcUtils.h"
-#include "../src/SOFAString.h"
+#include "../inc/SOFAUnits.h"
+#include "../inc/SOFANcUtils.h"
+#include "../inc/SOFAString.h"
 #include <map>
 
 using namespace sofa;

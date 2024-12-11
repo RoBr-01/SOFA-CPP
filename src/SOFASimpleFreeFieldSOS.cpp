@@ -46,12 +46,12 @@
  *
  */
 /************************************************************************************/
-#include "../src/SOFASimpleFreeFieldSOS.h"
-#include "../src/SOFAExceptions.h"
-#include "../src/SOFAUtils.h"
-#include "../src/SOFANcUtils.h"
-#include "../src/SOFAString.h"
-#include "../src/SOFAListener.h"
+#include "../inc/SOFASimpleFreeFieldSOS.h"
+#include "../inc/SOFAExceptions.h"
+#include "../inc/SOFAUtils.h"
+#include "../inc/SOFANcUtils.h"
+#include "../inc/SOFAString.h"
+#include "../inc/SOFAListener.h"
 
 using namespace sofa;
 

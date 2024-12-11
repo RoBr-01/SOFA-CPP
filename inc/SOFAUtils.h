@@ -49,7 +49,7 @@ http://www.sofaconventions.org
 #ifndef _SOFA_UTILS_H__
 #define _SOFA_UTILS_H__
 
-#include "../src/SOFAPlatform.h"
+#include "../inc/SOFAPlatform.h"
 #include <cmath>
 
 namespace sofa

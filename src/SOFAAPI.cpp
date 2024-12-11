@@ -46,12 +46,12 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../src/SOFAAPI.h"
-#include "../src/SOFASimpleFreeFieldHRIR.h"
-#include "../src/SOFASimpleFreeFieldSOS.h"
-#include "../src/SOFASimpleHeadphoneIR.h"
-#include "../src/SOFAMultiSpeakerBRIR.h"
-#include "../src/SOFAGeneralFIR.h"
+#include "../inc/SOFAAPI.h"
+#include "../inc/SOFASimpleFreeFieldHRIR.h"
+#include "../inc/SOFASimpleFreeFieldSOS.h"
+#include "../inc/SOFASimpleHeadphoneIR.h"
+#include "../inc/SOFAMultiSpeakerBRIR.h"
+#include "../inc/SOFAGeneralFIR.h"
 #include <sstream>
 
 using namespace sofa;

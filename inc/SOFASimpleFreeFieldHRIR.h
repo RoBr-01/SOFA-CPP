@@ -49,7 +49,7 @@ http://www.sofaconventions.org
 #ifndef _SOFA_SIMPLE_FREE_FIELD_HRIR_H__
 #define _SOFA_SIMPLE_FREE_FIELD_HRIR_H__
 
-#include "../src/SOFAFile.h"
+#include "../inc/SOFAFile.h"
 
 namespace sofa
 {

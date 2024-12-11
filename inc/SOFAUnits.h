@@ -49,9 +49,9 @@ http://www.sofaconventions.org
 #ifndef _SOFA_UNITS_H__
 #define _SOFA_UNITS_H__
 
-#include "../src/SOFAPlatform.h"
-#include "netcdf.h"
-#include "ncFile.h"
+#include "../inc/SOFAPlatform.h"
+#include "../lib/netCDF/inc/netcdf.h"
+#include "../lib/netCDF/inc/ncFile.h"
 
 namespace sofa
 {
