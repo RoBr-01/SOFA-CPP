@@ -377,6 +377,12 @@ static void CreateSimpleFreeFieldHRIRFile()
     ///@todo add any other variables, as you need
 }
 
+static void DisplayHelp(std::ostream & output = std::cout)
+{
+    output << "sofainfo prints info about SOFA files" << std::endl;
+    output << "    syntax : ./sofainfo [filename]" << std::endl;
+}
+
 /************************************************************************************/
 /*!
  *  @brief          Main entry point
@@ -385,10 +391,35 @@ static void CreateSimpleFreeFieldHRIRFile()
 /************************************************************************************/
 int main(int argc, char *argv[])
 {
+
+    std::ostream & output = std::cout;
+    std::string in;
+    
+    //==============================================================================
+    // Parsing arguments
+    //==============================================================================
+    if( argc == 2 )
+    {
+        in = argv[1];
+                
+        if( in == "h" || in == "-h" || in == "--h" || in == "--help" || in == "-help" )
+        {
+            DisplayHelp( output );
+            return 0;
+        }
+    }
+    else
+    {
+        DisplayHelp( output );
+        return 0;
+    }
+     
+    const std::string filename = in;
     ///@todo : change this !
     //const std::string filename = "/Users/tcarpent/Desktop/sofa_files/BTDEI-hp_H010-subj_S115-Set02_BEC-RAW.sofa";
     //const std::string filename = "/Users/tcarpent/Desktop/drir.sofa";
-    const std::string filename = "/Users/tcarpent/Desktop/BRIRcut/studio1_olivier_P00.sofa";
+    // const std::string filename = "/Users/tcarpent/Desktop/BRIRcut/studio1_olivier_P00.sofa";
+    // const std::string filename = argv[1];
     //const std::string filename = "/Users/tcarpent/Desktop/BRIR_AddAbsorbers_ArrayCentre_Emitters1to64.sofa";
     //"/Users/tcarpent/Desktop/sofa_files/subject_003.sofa";
     //"/Users/tcarpent/Downloads/ClubFritz_SH_BM_01.sofa";
