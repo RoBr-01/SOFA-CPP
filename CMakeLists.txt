@@ -44,3 +44,9 @@ target_link_libraries(sofa PUBLIC ${NETCDF_LIB} ${NETCDF_CXX_LIB})
 # Generate Test Executables
 add_executable(sofainfo "${CMAKE_CURRENT_SOURCE_DIR}/test/sofainfo.cpp")
 target_link_libraries(sofainfo PRIVATE sofa ${NETCDF_LIB} ${NETCDF_CXX_LIB})
+
+add_executable(sofamisc "${CMAKE_CURRENT_SOURCE_DIR}/test/sofamisc.cpp")
+target_link_libraries(sofamisc PRIVATE sofa ${NETCDF_LIB} ${NETCDF_CXX_LIB})
+
+# add_executable(sofaexamples "${CMAKE_CURRENT_SOURCE_DIR}/test/sofaexamples.cpp")
+# target_link_libraries(sofaexamples PRIVATE sofa ${NETCDF_LIB} ${NETCDF_CXX_LIB})
