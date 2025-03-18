@@ -46,16 +46,16 @@
  *
  */
 /************************************************************************************/
-#include "../inc/SOFAHelper.h"
-#include "../inc/SOFAExceptions.h"
-#include "../inc/SOFASimpleFreeFieldHRIR.h"
-#include "../inc/SOFASimpleFreeFieldSOS.h"
-#include "../inc/SOFASimpleHeadphoneIR.h"
-#include "../inc/SOFAMultiSpeakerBRIR.h"
-#include "../inc/SOFAGeneralFIR.h"
-#include "../inc/SOFAGeneralFIRE.h"
-#include "../inc/SOFAGeneralTF.h"
-#include "../inc/SOFASingleRoomDRIR.h"
+#include "SOFAHelper.h"
+#include "SOFAExceptions.h"
+#include "SOFASimpleFreeFieldHRIR.h"
+#include "SOFASimpleFreeFieldSOS.h"
+#include "SOFASimpleHeadphoneIR.h"
+#include "SOFAMultiSpeakerBRIR.h"
+#include "SOFAGeneralFIR.h"
+#include "SOFAGeneralFIRE.h"
+#include "SOFAGeneralTF.h"
+#include "SOFASingleRoomDRIR.h"
 
 using namespace sofa;
 

@@ -46,7 +46,7 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFAExceptions.h"
+#include "SOFAExceptions.h"
 #include <iostream>
 
 using namespace sofa;

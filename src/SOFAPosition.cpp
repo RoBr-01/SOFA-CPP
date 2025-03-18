@@ -46,9 +46,9 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFAPosition.h"
-#include "../inc/SOFANcUtils.h"
-#include "../inc/SOFAUtils.h"
+#include "SOFAPosition.h"
+#include "SOFANcUtils.h"
+#include "SOFAUtils.h"
 
 using namespace sofa;
 

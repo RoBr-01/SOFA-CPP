@@ -49,7 +49,7 @@
 #ifndef _SOFA_HELPER_H__
 #define _SOFA_HELPER_H__
 
-#include "../inc/SOFAPlatform.h"
+#include "SOFAPlatform.h"
 
 namespace sofa
 {

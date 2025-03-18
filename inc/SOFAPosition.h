@@ -49,9 +49,9 @@ http://www.sofaconventions.org
 #ifndef _SOFA_POSITION_H__
 #define _SOFA_POSITION_H__
 
-#include "../inc/SOFACoordinates.h"
-#include "../inc/SOFAUnits.h"
-#include "../lib/netCDF/inc/ncVar.h"
+#include "SOFACoordinates.h"
+#include "SOFAUnits.h"
+#include <ncVar.h>
 
 namespace sofa
 {

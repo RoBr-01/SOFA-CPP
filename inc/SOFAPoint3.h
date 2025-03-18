@@ -49,8 +49,8 @@ http://www.sofaconventions.org
 #ifndef _SOFA_POINT3_H__
 #define _SOFA_POINT3_H__
 
-#include "../inc/SOFACoordinates.h"
-#include "../inc/SOFAUnits.h"
+#include "SOFACoordinates.h"
+#include "SOFAUnits.h"
 
 namespace sofa
 {

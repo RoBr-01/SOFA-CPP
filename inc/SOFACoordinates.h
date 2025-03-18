@@ -46,12 +46,12 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#ifndef _SOFA_COORDINATES_H__
-#define _SOFA_COORDINATES_H__
+#ifndef SOFACOORDINATES_H
+#define SOFACOORDINATES_H
 
-#include "../inc/SOFAPlatform.h"
-#include "../lib/netCDF/inc/netcdf.h"
-#include "../lib/netCDF/inc/ncFile.h"
+#include "SOFAPlatform.h"
+#include <netcdf.h>
+#include <ncFile.h>
 
 namespace sofa
 {
@@ -89,4 +89,4 @@ namespace sofa
     
 }
 
-#endif /* _SOFA_COORDINATES_H__ */
+#endif/* SOFACOORDINATES_H */

@@ -49,7 +49,7 @@
 #ifndef _SOFA_SIMPLE_FREE_FIELD_SOS_H__
 #define _SOFA_SIMPLE_FREE_FIELD_SOS_H__
 
-#include "../inc/SOFAFile.h"
+#include "SOFAFile.h"
 
 namespace sofa
 {

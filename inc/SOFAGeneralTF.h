@@ -49,7 +49,7 @@
 #ifndef _SOFA_GENERAL_TF_H__
 #define _SOFA_GENERAL_TF_H__
 
-#include "../inc/SOFAFile.h"
+#include "SOFAFile.h"
 
 namespace sofa
 {

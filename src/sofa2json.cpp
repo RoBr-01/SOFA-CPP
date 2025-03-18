@@ -11,9 +11,9 @@
  */
 /************************************************************************************/
 #include <iostream>
-#include "../inc/SOFA.h"
-#include <../lib/netCDF/inc/ncDim.h>
-#include <../lib/netCDF/inc/ncVar.h>
+#include "SOFA.h"
+#include <ncDim.h>
+#include <ncVar.h>
 #include <json-c/json.h>
 
 /************************************************************************************/

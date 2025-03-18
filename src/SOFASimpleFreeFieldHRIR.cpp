@@ -46,12 +46,12 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFASimpleFreeFieldHRIR.h"
-#include "../inc/SOFAExceptions.h"
-#include "../inc/SOFAUtils.h"
-#include "../inc/SOFANcUtils.h"
-#include "../inc/SOFAString.h"
-#include "../inc/SOFAListener.h"
+#include "SOFASimpleFreeFieldHRIR.h"
+#include "SOFAExceptions.h"
+#include "SOFAUtils.h"
+#include "SOFANcUtils.h"
+#include "SOFAString.h"
+#include "SOFAListener.h"
 
 using namespace sofa;
 

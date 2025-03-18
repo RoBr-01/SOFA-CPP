@@ -49,10 +49,10 @@ http://www.sofaconventions.org
 #ifndef _SOFA_FILE_H__
 #define _SOFA_FILE_H__
 
-#include "../inc/SOFANcFile.h"
-#include "../inc/SOFAAttributes.h"
-#include "../inc/SOFACoordinates.h"
-#include "../inc/SOFAUnits.h"
+#include "SOFANcFile.h"
+#include "SOFAAttributes.h"
+#include "SOFACoordinates.h"
+#include "SOFAUnits.h"
 
 namespace sofa
 {

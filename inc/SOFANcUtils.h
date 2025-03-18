@@ -49,12 +49,12 @@ http://www.sofaconventions.org
 #ifndef _SOFA_NC_UTILS_H__
 #define _SOFA_NC_UTILS_H__
 
-#include "../inc/SOFAPlatform.h"
-#include "../lib/netCDF/inc/netcdf.h"
-#include "../lib/netCDF/inc/ncVar.h"
-#include "../lib/netCDF/inc/ncDim.h"
-#include "../lib/netCDF/inc/ncAtt.h"
-#include "../lib/netCDF/inc/ncException.h"
+#include "SOFAPlatform.h"
+#include <netcdf.h>
+#include <ncVar.h>
+#include <ncDim.h>
+#include <ncAtt.h>
+#include <ncException.h>
 
 namespace sofa
 {

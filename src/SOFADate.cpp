@@ -46,9 +46,9 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFADate.h"
-#include "../inc/SOFAString.h"
-#include "../inc/SOFAHostArchitecture.h"
+#include "SOFADate.h"
+#include "SOFAString.h"
+#include "SOFAHostArchitecture.h"
 #include <sstream>
 #include <iostream>
 

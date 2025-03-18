@@ -46,8 +46,8 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFACoordinates.h"
-#include "../inc/SOFANcUtils.h"
+#include "SOFACoordinates.h"
+#include "SOFANcUtils.h"
 #include <map>
 
 using namespace sofa;

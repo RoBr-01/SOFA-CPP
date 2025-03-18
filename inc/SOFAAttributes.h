@@ -46,10 +46,10 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#ifndef _SOFA_ATTRIBUTES_H__
-#define _SOFA_ATTRIBUTES_H__
+#ifndef SOFAATTRIBUTES_H
+#define SOFAATTRIBUTES_H
 
-#include "../inc/SOFAPlatform.h"
+#include "SOFAPlatform.h"
 #include <iostream>
 
 namespace sofa
@@ -184,5 +184,5 @@ namespace sofa
     
 }
 
-#endif /* _SOFA_ATTRIBUTES_H__ */ 
+#endif/* SOFAATTRIBUTES_H */
 

@@ -46,10 +46,10 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFANcFile.h"
-#include "../inc/SOFANcUtils.h"
-#include "../inc/SOFAUtils.h"
-#include "../inc/SOFAString.h"
+#include "SOFANcFile.h"
+#include "SOFANcUtils.h"
+#include "SOFAUtils.h"
+#include "SOFAString.h"
 
 using namespace sofa;
 

@@ -46,14 +46,14 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFAExceptions.h"
-#include "../inc/SOFAFile.h"
-#include "../inc/SOFAListener.h"
-#include "../inc/SOFASource.h"
-#include "../inc/SOFAReceiver.h"
-#include "../inc/SOFAEmitter.h"
-#include "../inc/SOFAString.h"
-#include "../inc/SOFANcUtils.h"
+#include "SOFAExceptions.h"
+#include "SOFAFile.h"
+#include "SOFAListener.h"
+#include "SOFASource.h"
+#include "SOFAReceiver.h"
+#include "SOFAEmitter.h"
+#include "SOFAString.h"
+#include "SOFANcUtils.h"
 
 using namespace sofa;
 

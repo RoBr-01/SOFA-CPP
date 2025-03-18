@@ -49,7 +49,7 @@ http://www.sofaconventions.org
 #ifndef _SOFA_SOURCE_H__
 #define _SOFA_SOURCE_H__
 
-#include "../inc/SOFAPosition.h"
+#include "SOFAPosition.h"
 
 namespace sofa
 {

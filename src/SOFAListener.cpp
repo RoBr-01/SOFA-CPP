@@ -46,7 +46,7 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFAListener.h"
+#include "SOFAListener.h"
 
 using namespace sofa;
 

@@ -46,7 +46,7 @@ http://www.sofaconventions.org
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFAEmitter.h"
+#include "SOFAEmitter.h"
 
 using namespace sofa;
 
