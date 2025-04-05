@@ -7,3 +7,5 @@ README.txt
 
 libsofa.changelog.txt
 CHANGELOG
+.vscode/launch.json
+.vscode/tasks.json
