@@ -8,8 +8,8 @@
  * 
  */
 /************************************************************************************/
-#include "../inc/SOFA.h"
-#include "../inc/SOFAString.h"
+#include <SOFA.h>
+#include <SOFAString.h>
 
 static const std::string verticalSeparator       = " ";
 

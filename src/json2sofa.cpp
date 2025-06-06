@@ -161,25 +161,28 @@ int main(int argc, char *argv[])
 		return 1;
 	}
  
-    FILE fhd = fopen(argv[1]);
-    if(fhd==NULL) {
-        std::cerr << "Cannot open file " << argv[1] << std::endl;
-        return 2;
-    }
-    fseek(fp, 0L, SEEK_END);
-    sz = ftell(fp);
-    fseek(fp, 0L, SEEK_SET);
+	FILE *fhd = fopen(argv[1], "rb");
+	if(fhd==NULL) {
+		std::cerr << "Cannot open file " << argv[1] << std::endl;
+		return 2;
+	}
+	fseek(fhd, 0L, SEEK_END);
+	sz = ftell(fhd);
+	fseek(fhd, 0L, SEEK_SET);
 
-    filestring = malloc(sz);
-    if(!filestring) {
-        std::cerr << "Out of memory" << std::endl;
-        return 3;
-    }
+	filestring = (char*)malloc(sz);
+	if(!filestring) {
+		std::cerr << "Out of memory" << std::endl;
+		fclose(fhd);
+		return 3;
+	}
 
-    if(fread(filestring, sz, 1, fhd)!=sz) {
-        std::cerr << "Cannot read file" << std::endl;
-        return 4;
-    }
+	if(fread(filestring, 1, sz, fhd)!=sz) {
+		std::cerr << "Cannot read file" << std::endl;
+		free(filestring);
+		fclose(fhd);
+		return 4;
+	}
     
 	json_object * jobj = json_tokener_parse	(filestring);
 	if(jobj==NULL) {

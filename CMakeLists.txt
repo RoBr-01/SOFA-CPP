@@ -3,6 +3,7 @@ project(libsofa VERSION 1.1.0)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED YES)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include(FetchContent)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build/test")
@@ -41,10 +42,6 @@ include_directories(${CMAKE_SOURCE_DIR}/inc)
 
 # SOFA Source Files
 file(GLOB_RECURSE SOFA_SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
-
-# Temporary Removal until JSON library works properly
-list(REMOVE_ITEM SOFA_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/json2sofa.cpp")
-list(REMOVE_ITEM SOFA_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/sofa2json.cpp")
 
 # Define static library
 add_library(sofa STATIC ${SOFA_SOURCES} ${SOFA_HEADERS})
